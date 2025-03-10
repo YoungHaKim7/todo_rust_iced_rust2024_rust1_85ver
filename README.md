@@ -1,3 +1,23 @@
+# rust iced ver.
+```toml
+iced = "0.13.1"
+```
+
+- rust version
+
+```bash
+$ rustc --version --verbose
+
+rustc 1.87.0-nightly (efea9896f 2025-03-08)
+binary: rustc
+commit-hash: efea9896f506baa08f40444e07774e827646d57a
+commit-date: 2025-03-08
+host: aarch64-apple-darwin
+release: 1.87.0-nightly
+LLVM version: 20.1.0
+```
+
+
 # iced::widget
 # Macro column
 - https://docs.rs/iced/latest/iced/widget/macro.column.html
