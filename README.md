@@ -1,4 +1,4 @@
-# rust iced ver.(Rust Editon 2024)
+# rust iced(GUI) ver.(Rust Editon 2024)
 ```toml
 iced = "0.13.1"
 ```
