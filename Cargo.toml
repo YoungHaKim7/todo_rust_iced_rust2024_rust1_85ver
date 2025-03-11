@@ -3,6 +3,9 @@ name = "todo_rust_iced_rust2024_rust1_85ver"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = ["crates/iced_test"]
+
 [dependencies]
 async-std = { version = "1.13.0", features = ["attributes"] }
 directories = "6.0.0"
