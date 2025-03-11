@@ -6,7 +6,8 @@
 
 # rust iced(GUI) ver.(Rust Editon 2024)
 ```toml
-iced = "0.13.1"
+# 250312 작성함
+iced = "0.14.0-dev"
 ```
 
 - rust version
