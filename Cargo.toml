@@ -15,3 +15,6 @@ serde_json = "1.0.140"
 tracing-subscriber = "0.3.19"
 uuid = { version = "1.15.1", features = ["serde", "v4"] }
 wasmtimer = "0.4.1"
+
+[dev-dependencies]
+iced_test = { path="./crates/iced_test"}
