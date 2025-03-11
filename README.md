@@ -8,6 +8,9 @@
 ```toml
 # 250312 작성함
 iced = "0.14.0-dev"
+
+# 이걸로 test중
+iced = { version ="0.14.0-dev" , git = "https://github.com/iced-rs/iced", rev ="fd5ed0d"}
 ```
 
 - rust version
