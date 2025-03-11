@@ -4,7 +4,6 @@ use crate::app::todos_states::Todos;
 
 mod app;
 mod error;
-mod tests;
 
 const SCREEN_W: f32 = 500.0;
 const SCREEN_H: f32 = 800.0;
