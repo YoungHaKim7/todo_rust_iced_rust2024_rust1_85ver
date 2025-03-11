@@ -18,3 +18,6 @@ wasmtimer = "0.4.1"
 
 # [dev-dependencies]
 # iced_test = { path="./crates/iced_test"}
+#
+[[example]]
+name = "hello_iced"
