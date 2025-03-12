@@ -54,6 +54,9 @@ LLVM version: 20.1.0
 
 
 # iced::widget[|🔝|](#link)
+
+- https://docs.rs/iced/latest/iced/widget/
+
 # Macro column[|🔝|](#link)
 - https://docs.rs/iced/latest/iced/widget/macro.column.html
 
