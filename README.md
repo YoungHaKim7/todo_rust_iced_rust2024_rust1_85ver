@@ -91,6 +91,30 @@ fn main() -> iced::Result {
 }
 ```
 
+- https://docs.rs/iced/latest/src/iced/settings.rs.html#8-38
+```rs
+impl Default for Settings {
+    fn default() -> Self {
+        Self {
+            id: None,
+            fonts: Vec::new(),
+            default_font: Font::default(),
+            default_text_size: Pixels(16.0),
+            antialiasing: false,
+        }
+    }
+}
+
+impl From<Settings> for iced_winit::Settings {
+    fn from(settings: Settings) -> iced_winit::Settings {
+        iced_winit::Settings {
+            id: settings.id,
+            fonts: settings.fonts,
+        }
+    }
+}
+```
+
 <hr />
 
 # Run & Debugging[|🔝|](#link)
