@@ -3,6 +3,7 @@
 - iced 관련
   - [(외부링크)Rust iced eBook](https://book.iced.rs/)
     - https://iced.rs/
+    - https://github.com/iced-rs/iced
   - [Font세팅 및 크기 조절](#font-사이즈--세팅)
   - [macro column이해](#macro-column)
   - [iced widget이해](#icedwidget)
