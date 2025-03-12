@@ -62,7 +62,34 @@ LLVM version: 20.1.0
 # Font 사이즈 & 세팅[|🔝|](#link)
 
 - https://docs.rs/iced/latest/iced/settings/struct.Settings.html
+- https://github.com/bungoboingo/halo
 
+```rs
+
+const JETBRAINS_MONO: Font = Font {
+    family: Family::Name("JetBrains Mono"),
+    weight: Weight::Normal,
+    stretch: Stretch::Normal,
+    style: Style::Normal,
+};
+
+fn main() -> iced::Result {
+    Halo::run(iced::Settings {
+        fonts: vec![
+            include_bytes!("../fonts/JetBrainsMono-Regular.ttf")
+                .as_slice()
+                .into(),
+            include_bytes!("../fonts/halo-icons.ttf").as_slice().into(),
+        ],
+        window: window::Settings {
+            size: (1600, 900),
+            ..Default::default()
+        },
+        default_font: Font::MONOSPACE,
+        ..Default::default()
+    })
+}
+```
 
 <hr />
 
