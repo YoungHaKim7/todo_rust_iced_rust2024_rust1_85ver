@@ -13,6 +13,9 @@
   - [nightly 디버깅 팁](#run--debugging)
 
 
+- GUI기초상식
+  - [Anti-aliasing(안티에일리어싱) 이해](#anti-aliasing이해안티에일리어싱)
+
 - 문제해결 bug & fix
   - [Hey Rustaceans! Got a question? Ask here](#hey-rustaceans-got-a-question-ask-here-162023)
 
